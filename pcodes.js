@@ -38,7 +38,7 @@ $.ajax({
   var ip = document.getElementById("ip").innerHTML;
   var Guest = ip.replace(/\./g, "-");
   var Fguest = "Topexpertbd/Guest-User/"+Guest;
-  var pcode = "<?php echo $pcode; ?>";     
+  var pcode = "uud";     
       
 firebase.database().ref(Fguest).update({ 
     Pcode : pcode,
